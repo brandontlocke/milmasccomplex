@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Military Masculinity Complex</title>
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".trigger").click(function(){
+        $(".panel").toggle("fast");
+        $(this).toggleClass("active");
+        return false;
+    });
+});
+</script>
+<!--fancybox picture viewer-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+        <a href="index.html"><img src="img/banner.jpg" alt="Banner" width="960" height="217"></a>
+			<nav>
+            	<ul>
+					<li class="nav1"><a href="/intro.html">Introduction</a></li>
+                    <li class="nav2"><a href="/hegemonicmasculinity.html">Hegemonic Masculinity</a></li>
+					<li class="nav2"><a href="/americanmanhood.html">American Manhood</a></li>
+					<li class="nav3"><a href="#">Military-Masculinity Complex</a>
+                    	<ul>
+                        	<li class="dropdown"><a href="/aggressiveness.html">Adventurousness and Aggressiveness</a></li>
+                        	<li class="dropdown"><a href="/antifemininity.html">Antifemininity</a></li>
+                            <li class="dropdown"><a href="/bigwheel.html">Be a Bigwheel</a></li>
+                        	<li class="dropdown"><a href="/inexpressiveness.html">Sturdy Oak</a></li>
+                        </ul>
+                    	</li>
+                    <li class="nav1"><a href="/archive.html">Archive</a></li>
+                    <li class="nav1"><a href="/about.html">About</a></li>
+       			</ul>
+			</nav>
+		</div><!--end header-->
+        <div id="secondary-nav">
+           	<h1><a href="#">Page Title</a></h1>
+            
+            <ul class="secondary-nav">
+            	<li><a href="#">Subsection</a></li>
+                <li><a href="#">Subsection</a></li>
+                <li><a href="#">Subsection</a></li>
+            </ul>
+        </div><!--end secondary-nav-->
+		<div id="middle">
+			<div class="section"> 
+            	{{content}}
+			</div><!--end section-->
+           	</div><!--end middle-->
+            <div class="footnote">
+            </div><!--end footnote-->
+		<div id="footer">
+			<div class="cell"> <!-- these just need to be "cell" and lay them out as you want. 1-4 on top, 5-8 on bottom, add more and they'll go in sets of 4 -->
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" />
+			</div>
+			<div class="cell">
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" /><br />
+                title <br />source<br />source
+			</div>
+			<div class="cell">
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" />
+			</div>
+			<div class="cell">
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" />
+			</div>
+			<div class="cell">
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" />
+			</div>
+			<div class="cell">
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" />
+			</div>
+			<div class="cell">
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" />
+			</div>
+			<div class="cell">
+				<img src="http://www.stanford.edu/~jay/koalas/Koala450j.jpg" />
+			</div>
+			<div class="clear">
+				&nbsp;
+			</div>
+		</div><!--end footer-->
+	    <div class="panel"> <!--panel from http://spyrestudios.com/demos/sliding-panel-fixed/ -->
+	<h3>Primary Sources</h3>
+    <ul>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    </ul>
+    <h3>Secondary Sources</h3>
+    <ul>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    </ul>
+    <h3>Outgoing Connections</h3>
+    <ul>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    </ul>
+    <h3>Incoming Connections</h3>
+    <ul>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    <li class="connections"><a href="#">test</a></li>
+    </ul>
+	
+<div style="clear:both;"></div>
+
+</div>
+<a class="trigger" href="#"><img src="img/networkbutton.png" width="25px" height="25px"></a>
+		</div>
+</body>
+</html>
